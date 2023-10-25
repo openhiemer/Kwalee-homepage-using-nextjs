@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'PP Mori';
+    background-color: rgb(248, 248, 248);
+    overflow-x: hidden;
+    
+}
+.page5{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    margin-bottom: 15%;
+
+}
+.wrapperforpage5{
+    height: 120vh;
+    width: 99vw;
+    /* background-color: black; */
+    background-image: url(https://thirdeyeblindproductions.com/wp-content/uploads/2022/04/Gaming-Industry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    border-radius: 0px 35% 0px 0px;
+}
+.wrapperforpage5>h2{
+    color: white;
+    font-size: 6rem;
+    width: 60%;
+    font-weight: 900;
+    position: relative;
+    top: 30%;
+    font-style: bold;
+    left: 10%;
+    font-family: 'Inter SemiBold';
+    
+}
+.page5contentdiv{
+    height: 55vh;
+    width: 70vw;
+    position: relative;
+    background-color: rgb(248, 248, 248);
+    top: 50%;
+    left: 15%;
+    border-radius: 13% 10% 0 0;
+    
+    /* background-color: black; */
+    
+}
+.page5contentdiv>h2{
+    color: black;
+
+    
+    font-family: 'Inter SemiBold';
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 5rem;
+    width: 70%;
+
+}
+.page5contentdiv>em{
+     font-style: italic;
+     font-weight: 100;
+     letter-spacing: -2.55px;   
+     font-family: 'Baskerville BT';
+}
+.page5contentdiv>button{
+    position: relative;
+    top: 75%;
+    left: 30%;
+    height: 50px;
+    width:200px;
+    border: none;
+    /* background-color: #FF8000; */
+    background-color: #EF8B76;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-radius: 30px;
+    z-index: 1;
+    cursor: pointer;
+}

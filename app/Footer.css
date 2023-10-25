@@ -1,0 +1,73 @@
+.footerdiv{
+    background-color: black;
+    min-height: 90vh;
+    width: 98vw;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 0px 35% 0px 0px;
+}
+.footerhome{
+    /* background-color: white; */
+    min-height: 50vh;
+    width: 10vw;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.footerhome>.h2{
+    color: #b1b7bd;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4em;
+    text-align: start;
+    font-family: "Inter SemiBold";
+    
+}
+.footerhome>.h2:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footerblogques{
+    /* background-color: white; */
+    min-height: 50vh;
+    width: 60vh;
+    position: absolute;
+    top: 10%;
+
+}
+.footerblogques li{
+    color: #b1b7bd;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: start;
+    font-family: "Inter SemiBold";
+    list-style-type: disc;
+    cursor: pointer;
+}
+.footerblogques li:hover{
+    color: white;
+}
+
+.footerblogques ol{
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+.footerdiv img{
+    height: 70px;
+    width: 190px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+
+}
