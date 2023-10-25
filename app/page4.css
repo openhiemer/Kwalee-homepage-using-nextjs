@@ -27,7 +27,7 @@ html,body{
     position: relative;
     /* background-color: black; */
 }
-.page4left>img{
+.page4left>#page4leftimg{
     height: 50vh;
     width: 30vw;
     position: absolute;

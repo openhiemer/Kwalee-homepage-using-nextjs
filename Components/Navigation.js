@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const Navigation = () => {
@@ -21,7 +22,7 @@ const Navigation = () => {
         <div className="navigation">
             
                <div className="navright">
-                <img loading='lazy' id='logo' src="https://kwaleeweb-dev.s3.eu-west-1.amazonaws.com/s3fs-public/2023-09/images/kwalee-lets-play-logo.png" alt="Logo" />
+                <Image loading='lazy' id='logo' src="https://kwaleeweb-dev.s3.eu-west-1.amazonaws.com/s3fs-public/2023-09/images/kwalee-lets-play-logo.png" height={70} width={150}  alt="Logo" />
                </div>
             <div className="navleft">
                 <Link className='Linknav'  href="">Mobile Publishing</Link>

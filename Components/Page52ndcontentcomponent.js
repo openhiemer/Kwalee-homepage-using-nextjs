@@ -4,7 +4,7 @@ const Page52ndcontentcomponent = () => {
   return (
     <>
        <div className="page5contentdiv">
-          <h2>Unite the globe through <em>Kwalee's epic</em>  mobile games.</h2>
+          <h2>Unite the globe through <em>Kwalee &apos; s epic</em>  mobile games.</h2>
           <button>about us</button>
        </div>
     </>

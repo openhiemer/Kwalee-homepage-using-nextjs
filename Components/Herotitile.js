@@ -4,7 +4,7 @@ const Herotitile = () => {
   return (
     <>
        <div className="heroheadingtop">
-           <h1>Kwalee's Mission:</h1>
+           <h1>Kwalee &apos;s Mission:</h1>
         </div> 
         <div className="heroheadingbot">
            <h2>Fun Games Worldwide</h2>    

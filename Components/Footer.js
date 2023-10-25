@@ -1,11 +1,11 @@
 "use client"
 import React, { useState } from 'react'
 import Button from './Button'
-
+import Image from 'next/image'
 const Footer = () => {
   return (
     <div className="footerdiv">
-        <img loading='lazy' id='mobileImage' src="https://kwaleeweb-dev.s3.eu-west-1.amazonaws.com/s3fs-public/2023-09/images/kwalee-lets-play-white.png" alt="logo" />
+        <Image loading='lazy' id='mobileImage' src="https://kwaleeweb-dev.s3.eu-west-1.amazonaws.com/s3fs-public/2023-09/images/kwalee-lets-play-white.png" height={65} width={120} alt="logo" />
         <div className="footerhome">
         <h2 className='h2'>Home</h2>
          <h2 className='h2'>About Us</h2>
@@ -26,7 +26,7 @@ const Footer = () => {
             </ol>
 
         </div>
-        <img loading='lazy' id='desktopImage' src="https://kwaleeweb-dev.s3.eu-west-1.amazonaws.com/s3fs-public/2023-09/images/kwalee-lets-play-white.png" alt="logo" />
+        <Image loading='lazy' id='desktopImage' src="https://kwaleeweb-dev.s3.eu-west-1.amazonaws.com/s3fs-public/2023-09/images/kwalee-lets-play-white.png" height={70} width={190} alt="logo" />
     </div>
   )
 }

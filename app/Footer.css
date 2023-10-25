@@ -63,7 +63,7 @@
     flex-direction: column;
     gap: 6em;
 }
-.footerdiv img{
+.footerdiv #desktopImage{
     height: 70px;
     width: 190px;
     position: absolute;

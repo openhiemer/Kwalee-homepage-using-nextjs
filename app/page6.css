@@ -89,7 +89,7 @@ html,body{
     /* z-index: 1; */
     cursor: pointer;
 }
-.page6right>img{
+.page6right>#page6rightimage{
     height: 50vh;
     width: 30vw;
     position: absolute;

@@ -300,7 +300,7 @@
         /* position: relative; */  
 
     }
-    .page6right>img{
+    .page6right>#page6rightimage{
         height: 30vh;
         width: 90vw;
         transform: translateX(-30%);
@@ -422,7 +422,7 @@
         font-weight: 900;
         
     }
-    .footerdiv>#mobileimage{
+    .footerdiv>#mobileImage{
         display: none;
     }
     .clickbar{
